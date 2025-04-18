@@ -1,0 +1,30 @@
+{
+    "manifest_version": 3,
+    "name": "WhatsAppWeb-tools-extension",
+    "version": "1.0",
+    "description": "WhatsAppWeb-tools-extension all in one by: DeveloperMDCM",
+    "icons": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    },
+    "action": {
+      "default_popup": "index.html",
+      "default_icon": "icon.png"
+    },
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage",
+    "alarms"  
+  ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "content_scripts": [
+      {
+        "matches": ["https://web.whatsapp.com/*"],
+        "js": ["content.js"]
+      }
+    ]
+  }

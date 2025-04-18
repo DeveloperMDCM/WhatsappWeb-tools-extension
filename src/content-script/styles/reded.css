@@ -1,0 +1,103 @@
+/* Theme Reded */
+body[data-theme='reded'] {
+  --active-tab-marker: #7e112e;
+  --app-background: #000;
+  --app-background-deeper: #000;
+  --background-default: #151a1c;
+  --button-primary: #111b21;
+  --chat-marker-background: #2a3942;
+  --chat-meta: #7e112e;
+  --chatlist-icon: #898989;
+  --checkbox-background: #7e112e;
+  --checkbox-mark: #fff;
+  --dropdown-background: #151a1c;
+  --dropdown-background-hover: #414141;
+  --filters-container-background: #111b21;
+  --icon: #7e112e;
+  --icon-ack: #53bdeb;
+  --icon-disabled: #54656f;
+  --icon-fixed: #7e112e;
+  --icon-lighter: #7e112e;
+  --icon-search-back: #7e112e;
+  --icon-strong: #aebac1;
+  --incoming-background: #202c33;
+  --incoming-background-deeper: #202427;
+  --incoming-background-highlight: #040607;
+  --incoming-primary: #798287;
+  --outgoing-background: #7e112e;
+  --outgoing-background-rgb: 0, 92, 75;
+  --outgoing-background-deeper: #1c2329;
+  --outgoing-background-deeper-rgb: 2, 81, 68;
+  --outgoing-background-highlight: rgba(2, 78, 65, 0.7);
+  --outgoing-background-highlight-rgb: 2, 78, 65;
+  --input-border-active: #00a884;
+  --input-border: #8696a0;
+  --input-hover-background: #202c33;
+  --input-empty-value-placeholder: #00a884;
+  --modal-backdrop: rgba(11, 20, 26, 0.85);
+  --modal-backdrop-solid: #000;
+  --modal-background: #151a1c;
+  --modal-title: #e9edef;
+  --panel-header-background: #151a1c;
+  --panel-header-icon: #8e98a3;
+  --conversation-header-border: rgba(134, 150, 160, 0.15);
+  --progress-primary: #7e112e;
+  --rich-text-panel-background: #151a1c;
+  --system-message-background: #151a1c;
+  --system-message-text: #fff;
+  --typing: #00a884;
+  --unread-marker-text: #fff;
+  --reactions-bubble-border: #111b21;
+  --reactions-details-background: #222e35;
+  --reactions-tray-background: #151a1c;
+  --reactions-details-background-hover: #2c3b45;
+  --reactions-tray-active-round-background: #fff;
+  --reactions-picker-bg: #7e112e;
+  --svg-gray-button: #222e36;
+  --reactions-panel-background-color: #151a1c;
+  --reactions-search-color: #fff;
+  --reactions-menu-tab-separator: #fff;
+  --text-primary-strong: #e9edef;
+  --navbar-background: #151a1c;
+  --intro-background: #151a1c;
+  --drawer-background-deep: #090b0c;
+  --drawer-section-background: #151a1c;
+  --secondary: #bbbbbb;
+  --secondary-lighter: #fff;
+  --secondary-stronger: #7e112e;
+  --expressions-panel-active-icon-color: #ffffff;
+  --expressions-panel-active-icon-tab-background: #7e112e;
+  --icon-bright-highlight: #7e112e;
+  --button-bubble: #ffffff;
+  --button-round-background: #7e112e;
+  --filters-item-active-background: #7e112e;
+  --filters-item-active-color: #ffffff;
+  --unread-marker-background: #7e112e;
+  --unread-timestamp: #9da4a8;
+  --video-primary: #7e112e;
+  --status-background: #151a1c;
+  --teal: #7e112e;
+  --text-teal: #7e112e;
+  --announcement-speaker-background: #323f49;
+  --communities-green: #7e112e;
+  --WDS-green-450: #7e112e;
+  --wds-teal-500: #7e112e;
+  --background-default-active: #7e112e14;
+  --background-default-hover: #7e112e24;
+  --WDS-cool-gray-1000: #151a1c;
+  --wds-cool-gray-500: #7e112e;
+  --WDS-content-external-link: #ffffff;
+
+}
+
+body[data-theme='reded'] ._ajx_ {
+  background-color: #7e112e24 !important;
+}
+.theme-card[data-theme='reded'] .sent {
+  background: #7e112e;
+  border-bottom-right-radius: 4px;
+}
+.theme-card[data-theme='reded'] .received {
+  background: #363c41;
+  border-bottom-left-radius: 4px;
+}
